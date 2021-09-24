@@ -5,9 +5,9 @@ axios.get("https://randomuser.me/api/?results=500").then((datos) => {
   const csvWriter = createCsvWriter({
     path: "out.csv",
     header: [
-      { id: "first_name", title: "Name" },
-      { id: "last_name", title: "Surname" },
-      { id: "email", title: "Age" },
+      { id: "first_name", title: "Nombre" },
+      { id: "last_name", title: "Apellido" },
+      { id: "email", title: "Correo" },
     ],
   });
 
