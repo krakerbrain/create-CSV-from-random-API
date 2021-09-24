@@ -20,5 +20,5 @@ axios.get("https://randomuser.me/api/?results=500").then((datos) => {
     };
     return data;
   });
-  csvWriter.writeRecords(infoUsers).then(() => console.log("The CSV file was written successfully"));
+  csvWriter.writeRecords(infoUsers).then(() => console.log("El archivo CSV fue creado exitosamente"));
 });
