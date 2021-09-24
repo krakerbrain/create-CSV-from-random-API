@@ -9,7 +9,7 @@ Los datos persistidos fueron nombre, apellido y dirección de correo
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-- $ git clone https://github.com/krakerbrain/desafio_always_music_2.0
+- $ git clone https://github.com/krakerbrain/create-CSV-from-random-API/
 - $ cd ../path/to/the/file
 - $ npm install
 - $ npm i axios, csv-writer
